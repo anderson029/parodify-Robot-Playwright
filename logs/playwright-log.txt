@@ -1,41 +1,100 @@
-{"level":30,"time":"2025-05-29T20:26:04.988Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"Listening on 127.0.0.1:49750"}
-(node:16404) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+{"level":30,"time":"2025-05-29T23:11:34.355Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Listening on 127.0.0.1:57764"}
+(node:10596) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
 (Use `node --trace-deprecation ...` to show where the warning was created)
-{"level":30,"time":"2025-05-29T20:26:05.402Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2025-05-29T20:26:05.893Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"Adding browser to stack: chromium, version: 136.0.7103.25"}
-{"level":30,"time":"2025-05-29T20:26:05.895Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method newBrowser"}
-{"level":30,"time":"2025-05-29T20:26:05.895Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2025-05-29T20:26:05.909Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-05-29T20:26:05.910Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-05-29T20:26:05.964Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"Changed active context"}
-{"level":30,"time":"2025-05-29T20:26:06.203Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"Video path: undefined"}
-{"level":30,"time":"2025-05-29T20:26:06.203Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"Changed active page"}
-{"level":30,"time":"2025-05-29T20:26:06.623Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method newPage"}
-{"level":30,"time":"2025-05-29T20:26:06.632Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method getText"}
-{"level":30,"time":"2025-05-29T20:26:06.633Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"Strict mode is enabled, find Locator with css=.logged-user in page."}
-{"level":30,"time":"2025-05-29T20:26:06.720Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"Retrieved text for element css=.logged-user containing Fernando Papito"}
-{"level":30,"time":"2025-05-29T20:26:06.720Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method getText"}
-{"level":30,"time":"2025-05-29T20:26:06.727Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-05-29T20:26:06.727Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"Strict mode is enabled, find Locator with xpath=//div[contains(@class,\"song\")]//h6[text()=\"Bughium\"]/..//button[contains(@class,\"play\")] in page."}
-{"level":30,"time":"2025-05-29T20:26:06.824Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-05-29T20:26:06.830Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method click"}
-{"level":30,"time":"2025-05-29T20:26:06.831Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"Strict mode is enabled, find Locator with xpath=//div[contains(@class,\"song\")]//h6[text()=\"Bughium\"]/..//button[contains(@class,\"play\")] in page."}
-{"level":30,"time":"2025-05-29T20:26:06.997Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method click"}
-{"level":30,"time":"2025-05-29T20:26:17.012Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-05-29T20:26:17.015Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-05-29T20:26:17.017Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-05-29T20:26:17.019Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-05-29T20:26:17.022Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-05-29T20:26:17.023Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-05-29T20:26:17.027Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-05-29T20:26:17.029Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-05-29T20:26:17.032Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"Changed active context"}
-{"level":30,"time":"2025-05-29T20:26:17.032Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"Changing current active page: page=2e6def43-3e1b-4767-9525-f27997e7e5e4"}
-{"level":30,"time":"2025-05-29T20:26:17.032Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"Changed active page"}
-{"level":30,"time":"2025-05-29T20:26:17.036Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method closeContext"}
-{"level":30,"time":"2025-05-29T20:26:17.067Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"Removed page=50048035-3da3-49e8-9b21-9ee33297b588 from context=9724a5d0-6ca1-4532-a815-3263a25e63b8 page stack"}
-{"level":30,"time":"2025-05-29T20:26:17.094Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method closeContext"}
-{"level":30,"time":"2025-05-29T20:26:17.110Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-05-29T20:26:17.110Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-05-29T20:26:17.169Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2025-05-29T20:26:17.364Z","pid":16404,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2025-05-29T23:11:34.656Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method initializeExtension"}
+{"level":30,"time":"2025-05-29T23:11:34.657Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Initializing extension: C:\\QAx\\projects\\parodify-Robot-Playwright\\resources\\module.js"}
+{"level":30,"time":"2025-05-29T23:11:34.660Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method initializeExtension"}
+{"level":30,"time":"2025-05-29T23:11:34.658Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Adding 1 keywords from JS Extension"}
+{"level":30,"time":"2025-05-29T23:11:34.717Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-29T23:11:34.718Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-29T23:11:34.721Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-29T23:11:34.721Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-29T23:11:34.726Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-05-29T23:11:35.067Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Adding browser to stack: chromium, version: 136.0.7103.25"}
+{"level":30,"time":"2025-05-29T23:11:35.068Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-05-29T23:11:35.068Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-05-29T23:11:35.094Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-05-29T23:11:35.095Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-05-29T23:11:35.127Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Changed active context"}
+{"level":30,"time":"2025-05-29T23:11:35.336Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Video path: undefined"}
+{"level":30,"time":"2025-05-29T23:11:35.337Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Changed active page"}
+{"level":30,"time":"2025-05-29T23:11:35.716Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method newPage"}
+{"level":30,"time":"2025-05-29T23:11:35.725Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method getText"}
+{"level":30,"time":"2025-05-29T23:11:35.725Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Strict mode is enabled, find Locator with css=.logged-user in page."}
+{"level":30,"time":"2025-05-29T23:11:35.799Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Retrieved text for element css=.logged-user containing Fernando Papito"}
+{"level":30,"time":"2025-05-29T23:11:35.799Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method getText"}
+{"level":30,"time":"2025-05-29T23:11:35.808Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-05-29T23:11:35.809Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Strict mode is enabled, find Locator with xpath=//div[contains(@class,\"song\")]//h6[text()=\"Bughium\"]/..//button[contains(@class,\"play\")] in page."}
+{"level":30,"time":"2025-05-29T23:11:36.020Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-05-29T23:11:36.028Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method click"}
+{"level":30,"time":"2025-05-29T23:11:36.028Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Strict mode is enabled, find Locator with xpath=//div[contains(@class,\"song\")]//h6[text()=\"Bughium\"]/..//button[contains(@class,\"play\")] in page."}
+{"level":30,"time":"2025-05-29T23:11:36.080Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method click"}
+{"level":30,"time":"2025-05-29T23:11:36.091Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-05-29T23:11:36.091Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Strict mode is enabled, find Locator with xpath=//div[contains(@class,\"song\")]//h6[text()=\"Bughium\"]/..//button[contains(@class,\"pause\")] in page."}
+{"level":30,"time":"2025-05-29T23:11:36.936Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-05-29T23:11:46.946Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-05-29T23:11:46.946Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","Take screenshot with options: ":{"path":"C:\\QAx\\projects\\parodify-Robot-Playwright\\logs\\browser\\screenshot\\robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-05-29T23:11:47.158Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-05-29T23:11:47.170Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-29T23:11:47.173Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-29T23:11:47.176Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-29T23:11:47.179Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-29T23:11:47.182Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-29T23:11:47.185Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-29T23:11:47.188Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-29T23:11:47.191Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-29T23:11:47.194Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Changed active context"}
+{"level":30,"time":"2025-05-29T23:11:47.194Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Changing current active page: page=18f3ca33-8b32-4518-a7ba-e0de6dd593ad"}
+{"level":30,"time":"2025-05-29T23:11:47.194Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Changed active page"}
+{"level":30,"time":"2025-05-29T23:11:47.200Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-05-29T23:11:47.232Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Removed page=db6eb0bf-94fd-48d3-b5e0-afb7b73f1c2a from context=5205bdc1-1e5a-415f-9957-919c37592a28 page stack"}
+{"level":30,"time":"2025-05-29T23:11:47.264Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-05-29T23:11:47.273Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-29T23:11:47.273Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-29T23:11:47.289Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2025-05-29T23:11:47.289Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2025-05-29T23:11:47.294Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-05-29T23:11:47.295Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-05-29T23:11:47.305Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Changed active context"}
+{"level":30,"time":"2025-05-29T23:11:47.509Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Video path: undefined"}
+{"level":30,"time":"2025-05-29T23:11:47.509Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Changed active page"}
+{"level":30,"time":"2025-05-29T23:11:47.526Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method newPage"}
+{"level":30,"time":"2025-05-29T23:11:47.541Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-05-29T23:11:47.870Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method goTo"}
+{"level":30,"time":"2025-05-29T23:11:47.874Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method getText"}
+{"level":30,"time":"2025-05-29T23:11:47.874Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Strict mode is enabled, find Locator with css=.logged-user in page."}
+{"level":30,"time":"2025-05-29T23:11:47.927Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Retrieved text for element css=.logged-user containing Fernando Papito"}
+{"level":30,"time":"2025-05-29T23:11:47.927Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method getText"}
+{"level":30,"time":"2025-05-29T23:11:47.931Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-05-29T23:11:47.931Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Strict mode is enabled, find Locator with xpath=//div[contains(@class,\"song\")]//h6[text()=\"Smells Like Test Script\"]/..//button[contains(@class,\"play\")] in page."}
+{"level":30,"time":"2025-05-29T23:11:47.936Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-05-29T23:11:47.940Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method click"}
+{"level":30,"time":"2025-05-29T23:11:47.940Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Strict mode is enabled, find Locator with xpath=//div[contains(@class,\"song\")]//h6[text()=\"Smells Like Test Script\"]/..//button[contains(@class,\"play\")] in page."}
+{"level":30,"time":"2025-05-29T23:11:47.987Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method click"}
+{"level":30,"time":"2025-05-29T23:11:47.991Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-05-29T23:11:47.992Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Strict mode is enabled, find Locator with xpath=//div[contains(@class,\"song\")]//h6[text()=\"Smells Like Test Script\"]/..//button[contains(@class,\"pause\")] in page."}
+{"level":30,"time":"2025-05-29T23:11:48.212Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-05-29T23:11:48.216Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-05-29T23:11:48.216Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Strict mode is enabled, find Locator with xpath=//div[contains(@class,\"song\")]//h6[text()=\"Smells Like Test Script\"]/..//button[contains(@class,\"play\")] in page."}
+{"level":30,"time":"2025-05-29T23:11:53.124Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-05-29T23:11:58.136Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-05-29T23:11:58.137Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","Take screenshot with options: ":{"path":"C:\\QAx\\projects\\parodify-Robot-Playwright\\logs\\browser\\screenshot\\robotframework-browser-screenshot-2.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-05-29T23:11:58.282Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-05-29T23:11:58.289Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-29T23:11:58.292Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-29T23:11:58.297Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-29T23:11:58.299Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-29T23:11:58.302Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-29T23:11:58.304Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-29T23:11:58.312Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-29T23:11:58.315Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-29T23:11:58.317Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Changed active context"}
+{"level":30,"time":"2025-05-29T23:11:58.317Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Changing current active page: page=35342166-4463-4fc1-9283-a8fff7e2917a"}
+{"level":30,"time":"2025-05-29T23:11:58.317Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Changed active page"}
+{"level":30,"time":"2025-05-29T23:11:58.334Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-05-29T23:11:58.361Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Removed page=a34f08b8-f103-4179-8bed-b28fd89d0720 from context=4d38b74e-2325-496d-91b8-8e71ba4b9a8e page stack"}
+{"level":30,"time":"2025-05-29T23:11:58.382Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-05-29T23:11:58.396Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-29T23:11:58.396Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-05-29T23:11:58.480Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-05-29T23:11:58.741Z","pid":10596,"hostname":"DESKTOP-0FEAMUN","msg":"End of node method closeAllBrowsers"}
