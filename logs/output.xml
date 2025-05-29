@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2 (Python 3.13.3 on win32)" generated="2025-05-29T17:26:03.266240" rpa="false" schemaversion="5">
+<suite id="s1" name="Player" source="C:\QAx\projects\parodify-Robot-Playwright\player.robot">
+<test id="s1-t1" name="Deve tocar uma música" line="5">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-05-29T17:26:03.615435" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\QAx\\projects\\parodify-Robot-Playwright\\logs\\browser\\traces\\temp\\1dd75e6c-ee8e-4c2d-bb2e-cdcda2723a23"}</msg>
+<msg time="2025-05-29T17:26:03.660742" level="INFO">Starting Browser process C:\Python313\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:49750</msg>
+<msg time="2025-05-29T17:26:05.899405" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\QAx\\projects\\parodify-Robot-Playwright\\logs\\browser\\traces\\temp\\1dd75e6c-ee8e-4c2d-bb2e-cdcda2723a23"}</msg>
+<arg>browser=chromium</arg>
+<arg>headless=False</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-05-29T17:26:03.614370" elapsed="2.285514"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2025-05-29T17:26:06.627418" level="INFO">Successfully initialized new page object and opened url: https://parodify.vercel.app/</msg>
+<msg time="2025-05-29T17:26:06.627551" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>https://parodify.vercel.app/</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-05-29T17:26:05.900860" elapsed="0.727037"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-05-29T17:26:06.722661" level="INFO">Text: 'Fernando Papito'</msg>
+<arg>css=.logged-user</arg>
+<arg>contains</arg>
+<arg>Fernando Papito</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-05-29T17:26:06.628487" elapsed="0.094322"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2025-05-29T17:26:06.723838" level="INFO">${play} = xpath=//div[contains(@class,"song")]//h6[text()="Bughium"]/..//button[contains(@class,"play")]</msg>
+<var>${play}</var>
+<arg>xpath=//div[contains(@class,"song")]//h6[text()="Bughium"]/..//button[contains(@class,"play")]</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2025-05-29T17:26:06.723322" elapsed="0.000568"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-05-29T17:26:06.827062" level="INFO">Waited for Element with selector xpath=//div[contains(@class,"song")]//h6[text()="Bughium"]/..//button[contains(@class,"play")] at state visible</msg>
+<arg>${play}</arg>
+<arg>visible</arg>
+<arg>timeout=10s</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-05-29T17:26:06.724238" elapsed="0.103011"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-05-29T17:26:06.828608" level="INFO">Clicks the element 'xpath=//div[contains(@class,"song")]//h6[text()="Bughium"]/..//button[contains(@class,"play")]'.</msg>
+<arg>${play}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-05-29T17:26:06.827740" elapsed="0.173853"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-05-29T17:26:17.004384" level="INFO">Slept 10 seconds.</msg>
+<arg>10</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-05-29T17:26:07.002425" elapsed="10.002094"/>
+</kw>
+<msg time="2025-05-29T17:26:17.026531" level="INFO">Switching context to context=9724a5d0-6ca1-4532-a815-3263a25e63b8 in CURRENT</msg>
+<msg time="2025-05-29T17:26:17.036502" level="INFO">Successfully changed active context: context=9724a5d0-6ca1-4532-a815-3263a25e63b8</msg>
+<msg time="2025-05-29T17:26:17.097096" level="INFO">Successfully closed Context</msg>
+<tag>player</tag>
+<status status="PASS" start="2025-05-29T17:26:03.613035" elapsed="13.391932"/>
+</test>
+<status status="PASS" start="2025-05-29T17:26:03.269260" elapsed="13.832752"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">player</stat>
+</tag>
+<suite>
+<stat name="Player" id="s1" pass="1" fail="0" skip="0">Player</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
