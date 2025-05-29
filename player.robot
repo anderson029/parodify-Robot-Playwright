@@ -41,7 +41,6 @@ Deve tocar uma música com massa mocada
     
     Wait For Elements State    ${PAUSE}    visible    timeout=5
     Wait For Elements State   ${PLAY}    visible    timeout=7
-    Sleep    5
 
 *** Keywords ***
 
